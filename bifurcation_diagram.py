@@ -17,5 +17,5 @@ if __name__ == '__main__':
     plt.title('test1')
     ax.set_xlabel('c')
     ax.set_ylabel('attracting points')
-    # plt.savefig('test1.png')
+    plt.savefig('test1.png')
     plt.show()

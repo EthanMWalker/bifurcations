@@ -58,8 +58,8 @@ std::vector<double> iterate(double (*Q)(double, double), double x0, double c, in
 int main() {
 
     double c0 = -2.;
-    double cf = -1.;
-    int nums = 100000;
+    double cf = -1.3;
+    int nums = 6000;
     std::vector<double> cs = linspace(c0, cf, nums);
 
     int n = cs.size();
